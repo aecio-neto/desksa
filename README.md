@@ -1,75 +1,73 @@
-# Getting Started with Create React App
+# Painel Administrativo para E-commerce de Produtos Personalizados
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Desenvolvimento de um painel administrativo para facilitar e gerenciar os pedidos e entregas de um e-commerce de produtos personalizados através de uma interface intuitiva. 
 
-## Available Scripts
+## Tecnologias Utilizadas
 
-In the project directory, you can run:
+- **React.js**: Biblioteca JavaScript para construção de interfaces de usuário.
+- **Material-UI**: Framework de componentes UI para React, utilizado para estilização e responsividade.
+- **Berry Template**: O projeto é baseado no [Berry Free React Material UI Admin Template](https://github.com/codedthemes/berry-free-react-admin-template), que oferece um conjunto de componentes pré-construídos e um design moderno para dashboards administrativos.
+- **React Router**: Gerenciamento de rotas na aplicação.
+- **Redux**: Gerenciamento de estado global da aplicação.
+- **Axios**: Cliente HTTP para consumir APIs REST.
+- **Formik e Yup**: Para manipulação e validação de formulários.
 
-### `Yarn`
+## Funcionalidades
 
-Install packages
+- **Gerenciamento de Pedidos**: Visualização, edição e atualização do status dos pedidos.
+<!-- - **Rastreamento de Entregas**: Monitoramento em tempo real das entregas. -->
+- **Filtro e Busca**: Ferramentas avançadas para filtrar pedidos por status, data, cliente, etc.
+<!-- - **Notificações**: Alertas sobre novos pedidos e atualizações de status. -->
+<!-- - **Autenticação e Autorização**: Controle de acesso baseado em permissões de usuário. -->
+- **Dashboard Personalizável**: Widgets e gráficos para visualização de métricas importantes.
 
-### `Yarn start`
+## Instalação e Execução
 
-Runs the app in the development mode.\
+1. **Clone o repositório**
 
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+   ```bash
+   git clone https://github.com/seu-usuario/seu-repositorio.git
+   ```
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+2. **Navegue até o diretório do projeto**
 
-### `yarn test`
+   ```bash
+   cd seu-repositorio
+   ```
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+3. **Instale as dependências**
 
-### `yarn build`
+   ```bash
+   npm install
+   # ou
+   yarn install
+   ```
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+4. **Inicie a aplicação**
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+   ```bash
+   npm start
+   # ou
+   yarn start
+   ```
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+5. **Acesse no navegador**
 
-### `yarn eject`
+   Abra [http://localhost:3000](http://localhost:3000) para ver a aplicação em funcionamento.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+## Licença
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+Este projeto está licenciado sob a licença MIT. Veja o arquivo [LICENSE](LICENSE) para mais detalhes.
 
-## Learn More
+## Agradecimentos
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+Agradecimentos especiais à equipe do [CodedThemes](https://codedthemes.com) pelo desenvolvimento do Berry Template, que serviu como base para este projeto.
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+## Contato
 
-### Code Splitting
+- **Desenvolvedor**: Aécio Neto
+- **LinkedIn**: [seu-perfil-linkedin](https://linkedin.com/in/aecio-neto)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `yarn build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+---
