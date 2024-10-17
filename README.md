@@ -27,7 +27,7 @@ O grande desafio até o momento foi entender a estrutura do projeto e como o Mat
 
 Abaixo há um print mostrando como está. 
 
-![Imagem](/vite/src/assets/images/printscreem1.png)
+![Imagem](/src/assets/images/printscreem1.png)
 
 ## Instalação e Execução
 
