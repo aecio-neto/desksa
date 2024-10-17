@@ -7,11 +7,12 @@ export function StatusChipWithMenu({ currentStatus, onStatusChange }) {
   const statusColors = {
     Pendente: 'default',
     'Aguardando Cliente': 'warning',
+    Revisão: 'secondary',
     Fotolito: 'info',
     Corrosão: 'secondary',
     Banho: 'primary',
     Embalagem: 'success',
-    Envio: 'error'
+    Envio: 'success'
   };
 
   const options = Object.keys(statusColors);

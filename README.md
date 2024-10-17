@@ -21,6 +21,14 @@ Desenvolvimento de um painel administrativo para facilitar e gerenciar os pedido
 <!-- - **Autenticação e Autorização**: Controle de acesso baseado em permissões de usuário. -->
 - **Dashboard Personalizável**: Widgets e gráficos para visualização de métricas importantes.
 
+## Como está indo
+
+O grande desafio até o momento foi entender a estrutura do projeto e como o Material UI funciona. Aos poucos, tenho feito modificações no template e montado um painel de pedidos usando dados "mockados". 
+
+Abaixo há um print mostrando como está. 
+
+![Ao Vivo](/vite/src/assets/images/DeskSA.png)
+
 ## Instalação e Execução
 
 1. **Clone o repositório**
@@ -68,6 +76,6 @@ Agradecimentos especiais à equipe do [CodedThemes](https://codedthemes.com) pel
 ## Contato
 
 - **Desenvolvedor**: Aécio Neto
-- **LinkedIn**: [seu-perfil-linkedin](https://linkedin.com/in/aecio-neto)
+- **LinkedIn**: [Aécio Neto](https://linkedin.com/in/aecio-neto)
 
 ---

@@ -4,6 +4,6 @@
     "module": "commonjs",
     "baseUrl": "src"
   },
-  "include": ["src/**/*"],
+  "include": ["src/**/*", "arquivo/reportWebVitals.js"],
   "exclude": ["node_modules"]
 }

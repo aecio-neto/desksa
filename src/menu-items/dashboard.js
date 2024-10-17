@@ -1,14 +1,14 @@
 // assets
-import { IconDashboard, IconReportMoney } from '@tabler/icons-react';
+import { IconDashboard, IconReportMoney, IconUserCheck } from '@tabler/icons-react';
 
 // constant
-const icons = { IconDashboard, IconReportMoney };
+const icons = { IconDashboard, IconReportMoney, IconUserCheck };
 
 // ==============================|| DASHBOARD MENU ITEMS ||============================== //
 
 const dashboard = {
   id: 'dashboard',
-  title: 'Dashboard da Iô',
+  title: 'E-commerce',
   type: 'group',
   children: [
     {
@@ -22,9 +22,40 @@ const dashboard = {
     {
       id: 'pedidos',
       title: 'Pedidos',
-      type: 'item',
+      type: 'collapse',
       url: '/dashboard/pedidos',
       icon: icons.IconReportMoney,
+      breadcrumbs: false,
+      children: [
+        {
+          id: 'lista-pedidos',
+          title: 'Lista Pedidos',
+          type: 'item',
+          url: '/dashboard/pedidos',
+          // target: true
+        },
+        {
+          id: 'lista-pedidos',
+          title: 'Adicionar',
+          type: 'item',
+          url: '/dashboard/pedidos/adicionar',
+          target: true
+        },
+        {
+          id: 'lista-pedidos',
+          title: 'Detalhes',
+          type: 'item',
+          url: '/dashboard/pedidos/detalhes',
+          target: true
+        }
+      ]
+    },
+    {
+      id: 'clientes',
+      title: 'Clientes',
+      type: 'item',
+      url: '/dashboard/clientes',
+      icon: icons.IconUserCheck,
       breadcrumbs: false
     }
   ]
